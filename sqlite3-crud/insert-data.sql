@@ -1,0 +1,2 @@
+INSERT INTO projects (project_id, project_name) VALUES (1, 'Employee Management System'), (2, 'Leave Management System');
+INSERT INTO tasks (task_id, task_name, completed, start_date, completed_date, project_id) VALUES (1, 'Create Employee Information', 0, NULL, NULL, 1), (2, 'Update Employee Information', 0, NULL, NULL, 1), (3, 'Create Casual Leaves', 0, NULL, NULL, 2), (4, 'Create Sick Leaves', 0, NULL, NULL, 2);
